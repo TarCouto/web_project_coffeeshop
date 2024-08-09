@@ -1,9 +1,4 @@
 .page {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
-.page .italic-serif {
-  font-family: 'Noto Serif', serif;
-  font-style: italic;
-  font-weight: 400;
-}
