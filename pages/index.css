@@ -76,7 +76,7 @@
   margin-bottom: 0px;
 }
 
-.header__title2 {
+.header__title h2 {
   margin-top: 0px;
   font-family: "Inter"; /* Corrigido o nome da fonte e adicionado as aspas corretas */
   font-style: normal;
@@ -85,6 +85,7 @@
   line-height: 72px;
   letter-spacing: 1px;
 }
+
 
 .header__description {
   margin-top: 28px;
