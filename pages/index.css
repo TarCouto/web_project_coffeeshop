@@ -5,7 +5,7 @@
   min-width: 1100px;
   max-width: 1600px;
   font-size: 16px;
-  color: #ffffff;
+
 }
 
 .header {
@@ -102,7 +102,7 @@
   z-index: 1; /* Ajuste o valor para alinhar verticalmente */
 }
 
-.footer__timings {
+.header__footer-timings {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -115,7 +115,7 @@
   margin: 0;
 }
 
-.footer__address {
+.header__footer-address {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
