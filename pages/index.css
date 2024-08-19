@@ -68,7 +68,8 @@
   align-items: center;
 }
 
-.header__title {
+
+.header-title {
   padding-top: 183px;
   max-width: 709px;
   font-family: "Noto Serif";
@@ -80,7 +81,7 @@
   margin-bottom: 0px;
 }
 
-.header__title h2 {
+.header__title {
   margin-top: 0px;
   font-family: "Inter"; /* Corrigido o nome da fonte e adicionado as aspas corretas */
   font-style: normal;
