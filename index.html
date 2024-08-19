@@ -26,12 +26,98 @@
   <body>
     <div class="page">
       <!-- Conteúdo da página -->
-      <header class="header"></header>
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Logotipo da Biblioteca Triple Peaks"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#recipes">Receitas</a>
+            </li>
+            <li>
+              <a class="nav__link" href="">Reservar uma mesa</a>
+            </li>
+            <li>
+              <a class="nav__link" href="">Contatos</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__content">
+          <h1 class="header__title">Café especial</h1>
+          <h2 class="header__title2">na biblioteca Triple Peaks</h2>
+          <p class="header__description">
+            Esta é nossa zona de estudo! Temos aquele cafezinho para energizar
+            você e vibrações aconchegantes para soltar a criatividade.
+          </p>
+
+          <img
+            src="./images/inside_coffee_shop.png"
+            alt="Ilustração 'Dentro da biblioteca'"
+            class="header__image"
+          />
+          <div class="header__footer">
+            <div class="footer__timings">
+              <p>Horários:</p>
+              <p>Segunda a sexta (10:00 – 19:00)</p>
+              <p>Sábado a domingo (11:00 - 18:00)</p>
+            </div>
+            <p class="footer__address">
+              200 Success Avenue, a cidade de Triple Peaks
+            </p>
+          </div>
+        </div>
+      </header>
       <main class="content">
-        <section class="recipes"></section>
-        <section class="reservation"></section>
+        <section class="recipes" id="recipes">
+          <div class="recipes__content">
+            <div>
+              <h1 class="recipes__title">Receitas</h1>
+              <p class="recipes__description">
+                Confira algumas receitas que coletamos para seu lanchinho
+                caseiro:
+              </p>
+            </div>
+            <div class="recipes__frame">
+              <div class="video-container">
+                <iframe
+                  width="480"
+                  height="273"
+                  src="https://www.youtube.com/embed/0a180dsbgXU?si=todrQOpHz2HfSFhJ"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+                <div class="video-title">
+                  <h3>Receita Aeropress</h3><span>~5 min</span>
+                </div>
+              </div>
+              <div class="video-container">
+                <iframe
+                  width="480"
+                  height="273"
+                  src="https://www.youtube.com/embed/st571DYYTR8?si=kDF_9OEl_XRCXu-0"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+                <div class="video-title">
+                  <h3>Receita de Prensa Francesa</h3><span>~15 min</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="reservation">
+          <!-- Adicione um título apropriado para a seção aqui se necessário -->
+        </section>
       </main>
-      <footer class="footer"></footer>
     </div>
   </body>
 </html>

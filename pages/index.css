@@ -4,6 +4,194 @@
   margin-left: auto;
   min-width: 1100px;
   max-width: 1600px;
-  font-size: 16px ;
-  line-height: 20px ;
+  font-size: 16px;
+  line-height: 20px;
+  color: ffffff;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  position: relative;
+  box-sizing: border-box;
+  background-image: url("../images/background_header.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-left: 80px;
+  padding-right: 40px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  position: relative;
+  left: -50px;
+  width: 105px;
+  height: 39px;
+}
+
+.nav__links {
+  display: flex;
+  column-gap: 20px;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: column; /* para empilhar os elementos verticalmente */
+  height: 100vh; /* Define a altura do container pai */
+}
+
+.header__footer {
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__title {
+  max-width: 709px;
+  font-family: "Noto Serif";
+  font-size: 58px;
+  line-height: 72px;
+  font-weight: normal;
+  color: #2f80ed;
+  font-style: italic;
+  margin-bottom: 0px;
+}
+
+.header__title2 {
+  margin-top: 0px;
+  font-family: "Inter"; /* Corrigido o nome da fonte e adicionado as aspas corretas */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: 1px;
+}
+
+.header__description {
+  margin-top: 28px;
+  max-width: 683px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__image {
+  width: 646px;
+  height: 568px;
+  position: absolute; /* Use position absolute para colocar a imagem onde quiser */
+  right: 5px; /* Ajuste essa distância para posicionar a imagem corretamente */
+  top: 124px;
+  z-index: 1; /* Ajuste o valor para alinhar verticalmente */
+}
+
+.footer__timings {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+}
+
+.header__footer p {
+  margin: 0;
+}
+
+.footer__address {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 2;
+}
+
+.recipes h1 {
+  margin: 00px;
+}
+
+.recipes {
+  padding-top: 100px;
+  background-color: #0a2850;
+  padding-bottom: 215px;
+  padding-left: 80px;
+  position: relative;
+  box-sizing: border-box;
+  background-image: url("../images/background_recipes.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.recipes__content {
+  color: #ffffff;
+}
+
+.recipes__title {
+  max-width: 580px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.recipes__description {
+  margin-bottom: 80px;
+  max-width: 438px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.recipes__frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 40px;
+}
+
+.video-container {
+  position: relative;
+}
+
+.video-title {
+  position: absolute;
+  bottom: -54px; /* 40px original + 24px para o espaço extra */
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
 }
