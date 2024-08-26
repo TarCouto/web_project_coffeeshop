@@ -116,23 +116,24 @@
           </div>
         </section>
         <section class="reservation" id="reservation">
-          <div class="form__container">
-            <form class="form__admin">
-              <h2 class="form__heading">Reservar uma mesa</h2>
+          <h2 class="reservation__heading">Reservar uma mesa</h2>
+          <div class="reservation__form-container">
+            <form class="form">
+
               <div class="form__main-container">
                 <fieldset
-                  class="form__input-container form__input-container_ctrl_texts"
+                  class="form__input-container "
                 >
-                  <label for="heading" class="form__label">Nome: </label>
+                  <label for="heading" class="form__label-text">Nome: </label>
                   <input
                     type="text"
-                    class="form__item form__item_el_heading"
+                    class="form__item "
                     id="heading"
                     name="heading"
                     placeholder="Nome"
                     required
                   />
-                  <label for="subheading" class="form__label"
+                  <label for="subheading" class="form__label-text"
                     >Número de convidados:
                   </label>
                   <input
@@ -143,11 +144,11 @@
                     placeholder="1-8"
                     required
                   />
-                  <label for="main-text" class="form__label"
+                  <label  class="form__label-text"
                     >Data e hora:
                   </label>
                   <input type="datetime-local" class=" form__item" />
-                  <label for="email" class="form__label">E-mail</label>
+                  <label class="form__label-text">E-mail</label>
                   <input
                     type="email"
                     class="form__item form__item_el_email"

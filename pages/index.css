@@ -211,18 +211,19 @@
   background-size: cover;
   background-position: center center;
   display: flex; /* Adiciona flexbox à seção */
+  flex-direction: column;
   align-items: center; /* Centraliza verticalmente */
   justify-content: center;
 }
 
-.form__container {
+.reservation__form-container {
   display: flex;
   align-items: center; /* Centraliza verticalmente */
   justify-content: center; /* Centraliza horizontalmente */
   width: 100%; /* Garante que o contêiner ocupe toda a largura */
 }
 
-.form_admin {
+.form {
   max-width: 385px;
   width: 100%;
   display: flex;
@@ -265,6 +266,13 @@ input {
   width: 100%;
   height: 60px;
   border-radius: 4px;
+  padding-left: 20px;
+  font-family: Inter;
+  margin-bottom: 32px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .form__item::placeholder {
@@ -274,7 +282,6 @@ input {
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  padding-left: 20px;
 }
 
 .form__input-container {
@@ -283,10 +290,10 @@ input {
   width: 100%;
   flex-direction: column; /* Coloca os elementos um abaixo do outro */
   align-items: flex-start; /* Alinha os elementos à esquerda (ou você pode usar 'center' para centralizá-los) */
-  gap: 10px; /* Espaçamento entre os elementos, ajuste conforme necessário */
+  gap: 8px; /* Espaçamento entre os elementos, ajuste conforme necessário */
 }
 
-.form__heading {
+.reservation__heading {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -343,7 +350,6 @@ button {
   display: flex;
 }
 
-
 .form__radio_input {
   width: 20px;
   height: 20px;
@@ -360,4 +366,5 @@ button {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+
 }
