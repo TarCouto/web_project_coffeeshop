@@ -343,9 +343,6 @@ button {
   display: flex;
 }
 
-.form__radio:: span {
-  display: flex;
-}
 
 .form__radio_input {
   width: 20px;
