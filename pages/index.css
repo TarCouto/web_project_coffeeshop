@@ -293,7 +293,7 @@ input {
   gap: 8px; /* Espaçamento entre os elementos, ajuste conforme necessário */
 }
 
-.reservation__heading {
+.reservation__title {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
