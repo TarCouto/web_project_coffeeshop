@@ -302,8 +302,8 @@ input {
   line-height: 52px;
   margin-top: 0;
   margin-bottom: 80px;
-  margin-right: 0;
-  margin-left: 0;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .form__handlers {
