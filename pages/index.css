@@ -291,7 +291,7 @@ input {
   flex-direction: column; /* Coloca os elementos um abaixo do outro */
   align-items: flex-start; /* Alinha os elementos à esquerda (ou você pode usar 'center' para centralizá-los) */
   gap: 8px; /* Espaçamento entre os elementos, ajuste conforme necessário */
-  margin-top: 80px;
+  ;
 }
 
 .reservation__title {
@@ -300,7 +300,8 @@ input {
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin: 0;
+  margin-top: 0px;
+  margin-bottom: 80px
 }
 
 .form__handlers {
