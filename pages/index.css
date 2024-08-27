@@ -294,6 +294,16 @@ input {
   ;
 }
 
+h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 100%; /* Reseta o tamanho da fonte para o valor padrão do documento */
+  font-weight: normal; /* Reseta o peso da fonte para normal */
+  line-height: normal; /* Reseta a altura da linha */
+  color: inherit; /* Herda a cor do texto do elemento pai */
+  text-align: inherit; /* Herda o alinhamento de texto do elemento pai */
+}
+
 .reservation__title {
   font-family: Inter;
   font-style: normal;
@@ -302,8 +312,8 @@ input {
   line-height: 52px;
   margin-top: 0;
   margin-bottom: 80px;
-  margin-right: 5px;
-  margin-left:  5px;
+  margin-right: 0px;
+  margin-left:  0px;
 }
 
 .form__handlers {
