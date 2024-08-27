@@ -205,7 +205,6 @@
 .reservation {
   background-color: #d9e7ff;
   padding-top: 100px;
-  padding-bottom: 120px;
   background-image: url("../images/background_reservation.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -221,6 +220,7 @@
   align-items: center; /* Centraliza verticalmente */
   justify-content: center; /* Centraliza horizontalmente */
   width: 100%; /* Garante que o contêiner ocupe toda a largura */
+
 }
 
 .form {
@@ -291,6 +291,7 @@ input {
   flex-direction: column; /* Coloca os elementos um abaixo do outro */
   align-items: flex-start; /* Alinha os elementos à esquerda (ou você pode usar 'center' para centralizá-los) */
   gap: 8px; /* Espaçamento entre os elementos, ajuste conforme necessário */
+  margin-top: 80px;
 }
 
 .reservation__title {
@@ -299,6 +300,7 @@ input {
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  margin: 0;
 }
 
 .form__handlers {
