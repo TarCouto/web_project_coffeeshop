@@ -1,0 +1,147 @@
+.reservation__form {
+  display: flex;
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+  width: 100%; /* Garante que o contêiner ocupe toda a largura */
+
+}
+
+.form {
+  max-width: 385px;
+  width: 100%;
+  display: flex;
+  flex-direction: column; /* Faz os elementos ficarem um embaixo do outro */
+  align-items: center; /* Centraliza os elementos horizontalmente */
+  justify-content: center;
+}
+
+fieldset {
+  all: unset; /* Reseta todos os estilos padrão */
+  display: block; /* Garante que o fieldset mantenha seu comportamento de bloco */
+  margin: 0; /* Remove margens */
+  padding: 0; /* Remove padding */
+  border: none; /* Remove borda */
+  min-width: 0; /* Remove o tamanho mínimo */
+}
+
+.form__main-container {
+  display: flex;
+  flex-direction: column; /* Faz os elementos ficarem um embaixo do outro */
+  align-items: center; /* Centraliza os elementos horizontalmente */
+  justify-content: center; /* Centraliza os elementos verticalmente */
+  max-width: 385px;
+  margin-top: 0px;
+}
+
+input {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+}
+
+.form__item {
+  background-color: white;
+  width: 100%;
+  height: 60px;
+  border-radius: 4px;
+  padding-left: 20px;
+  font-family: Inter;
+  margin-bottom: 32px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.form__item::placeholder {
+  color: #838383;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.form__input-container {
+  display: flex;
+  max-width: 385px;
+  width: 100%;
+  flex-direction: column; /* Coloca os elementos um abaixo do outro */
+  align-items: flex-start; /* Alinha os elementos à esquerda (ou você pode usar 'center' para centralizá-los) */
+  gap: 8px; /* Espaçamento entre os elementos, ajuste conforme necessário */
+  ;
+}
+
+
+.form__handlers {
+  display: flex;
+  flex-direction: column; /* Coloca os elementos um abaixo do outro */
+  align-items: center; /* Centraliza os elementos horizontalmente */
+  justify-content: center;
+  max-width: 385px;
+}
+
+button {
+  all: unset; /* Remove todos os estilos padrão */
+  display: inline-block; /* Garante que o botão se comporte como um bloco inline */
+  box-sizing: border-box; /* Inclui padding e borda no cálculo da largura e altura */
+  font-family: inherit; /* Herda a fonte do elemento pai */
+  font-size: inherit; /* Herda o tamanho da fonte do elemento pai */
+  line-height: inherit; /* Herda o line-height do elemento pai */
+  text-align: center; /* Centraliza o texto */
+  cursor: pointer; /* Aparece a mãozinha ao passar o mouse */
+  background-color: transparent; /* Remove qualquer fundo padrão */
+  border: none; /* Remove qualquer borda padrão */
+  outline: none; /* Remove o contorno ao focar no botão */
+  padding: 0; /* Remove o padding padrão */
+  margin: 0; /* Remove a margem padrão */
+}
+
+.form__button {
+  display: flex;
+  flex-direction: column; /* Coloca os elementos um abaixo do outro */
+  align-items: center; /* Centraliza os elementos horizontalmente */
+  justify-content: center; /* Alinha os elementos à esquerda (ou você pode usar 'center' para centralizá-los) */
+  gap: 10px; /* Espaçamento entre os elementos, ajuste conforme necessário */
+  width: 385px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  height: 60px;
+  color: white;
+  background-color: #2f80ed;
+  cursor: pointer;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 4px;
+}
+
+.form__radio {
+  display: flex;
+}
+
+.form__radio_input {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+}
+
+.form__pseudo-item {
+  margin-left: 12px;
+}
+
+.form__label-text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+}
