@@ -14,7 +14,7 @@
   /* Faz as colunas ficarem verticais */
 }
 
-.footer__columns {
+.footer__content {
   display: flex;
   margin-top: 0;
 }
@@ -25,7 +25,7 @@
 
 }
 
-.footer__column_content_social {
+.footer__social {
   margin-left: auto;
   font-size: 10px;
   justify-content: flex-end;
@@ -43,7 +43,7 @@
 
 }
 
-.footer-circle {
+.footer__circle {
   position: absolute;
   left: -44px;
   top: -128px;
