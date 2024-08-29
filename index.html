@@ -118,16 +118,13 @@
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Reservar uma mesa</h2>
           <div class="reservation__form">
-            <form class="reservation__form form ">
-
+            <form class="reservation__form form">
               <div class="form__main-container">
-                <fieldset
-                  class="form__input-container "
-                >
+                <fieldset class="form__input-container">
                   <label for="heading" class="form__label-text">Nome: </label>
                   <input
                     type="text"
-                    class="form__item "
+                    class="form__item"
                     id="heading"
                     name="heading"
                     placeholder="Nome"
@@ -144,10 +141,8 @@
                     placeholder="1-8"
                     required
                   />
-                  <label  class="form__label-text"
-                    >Data e hora:
-                  </label>
-                  <input type="datetime-local" class=" form__item" />
+                  <label class="form__label-text">Data e hora: </label>
+                  <input type="datetime-local" class="form__item" />
                   <label class="form__label-text">E-mail</label>
                   <input
                     type="email"
@@ -163,7 +158,11 @@
                   </button>
                 </fieldset>
                 <fieldset class="form__radio">
-                  <input type="radio" name="number-of-columns" class=" form__radio form__radio_input"/>
+                  <input
+                    type="radio"
+                    name="number-of-columns"
+                    class="form__radio form__radio_input"
+                  />
                   <span
                     class="form__pseudo-item form__pseudo-item_type_radio"
                   ></span>
@@ -176,7 +175,44 @@
           </div>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer" id="footer">
+        <div class="footer__columns">
+          <div class="footer__column">
+            <img
+              src="./images/logo_coffeeshop_light.svg"
+              alt="Logotipo da Biblioteca Triple Peaks"
+              class="footer__logo"
+            />
+          </div>
+          <div class="footer-circle"></div>
+          <div class="footer__column footer__column_content_social">
+            <h4 class="footer__column-heading">Redes Sociais</h4>
+            <ul class="footer__list">
+              <li class="footer__list-item footer__column-link">
+                <a href="#" class="footer__column-link">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="Logotipo da Biblioteca Triple Peaks"
+                    class="footer__social-icon"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__list-item footer__column-link">
+                <a href="#" class="footer__column-link">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="Logotipo da Biblioteca Triple Peaks"
+                    class="footer__social-icon"
+                  />
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2024 Tarcisio Couto</p>
+      </footer>
     </div>
   </body>
 </html>
