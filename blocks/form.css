@@ -1,10 +1,4 @@
-.reservation__form {
-  display: flex;
-  align-items: center; /* Centraliza verticalmente */
-  justify-content: center; /* Centraliza horizontalmente */
-  width: 100%; /* Garante que o contêiner ocupe toda a largura */
 
-}
 
 .form {
   max-width: 385px;
