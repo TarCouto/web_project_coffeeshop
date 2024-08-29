@@ -1,0 +1,20 @@
+.video-container {
+  position: relative;
+  margin-bottom: 215px;
+}
+
+.video-title {
+  position: absolute;
+  bottom: -54px; /* 40px original + 24px para o espaço extra */
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+}
